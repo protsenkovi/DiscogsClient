@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7845B3832014CBA400E7C43A /* AuthorizeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845B3822014CBA400E7C43A /* AuthorizeService.swift */; };
+		7845B3872014E10000E7C43A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845B3862014E0FF00E7C43A /* MainViewController.swift */; };
+		7845B38A2014E78300E7C43A /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845B3892014E78300E7C43A /* SearchService.swift */; };
+		7845B38C201503B600E7C43A /* MainViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845B38B201503B600E7C43A /* MainViewControllerCell.swift */; };
+		786B1D5A201A432100D456BF /* BandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786B1D59201A432100D456BF /* BandViewController.swift */; };
+		786B1D5C201A434500D456BF /* BandViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786B1D5B201A434500D456BF /* BandViewCell.swift */; };
+		786B1D5E201A435C00D456BF /* BandViewControllerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786B1D5D201A435C00D456BF /* BandViewControllerService.swift */; };
+		787C5117208CC354004C832F /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787C5116208CC354004C832F /* AlbumViewController.swift */; };
+		787C5119208CC9CA004C832F /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787C5118208CC9CA004C832F /* AlbumTableViewCell.swift */; };
+		78CC6578202B902300455B1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78EC659D200BAD820053BFB9 /* Main.storyboard */; };
 		78EC659A200BAD820053BFB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC6599200BAD820053BFB9 /* AppDelegate.swift */; };
 		78EC659C200BAD820053BFB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC659B200BAD820053BFB9 /* ViewController.swift */; };
-		78EC659F200BAD820053BFB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78EC659D200BAD820053BFB9 /* Main.storyboard */; };
 		78EC65A1200BAD820053BFB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EC65A0200BAD820053BFB9 /* Assets.xcassets */; };
 		78EC65A4200BAD820053BFB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78EC65A2200BAD820053BFB9 /* LaunchScreen.storyboard */; };
+		D92CDDBA3C8E0A2B00231B23 /* Pods_Discogs_Client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21819FBFC9B3D44086FBAEC0 /* Pods_Discogs_Client.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21819FBFC9B3D44086FBAEC0 /* Pods_Discogs_Client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Discogs_Client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FAA5910A2E7A5815572C8D /* Pods-Discogs Client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discogs Client.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Discogs Client/Pods-Discogs Client.debug.xcconfig"; sourceTree = "<group>"; };
+		7845B3822014CBA400E7C43A /* AuthorizeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizeService.swift; sourceTree = "<group>"; };
+		7845B3862014E0FF00E7C43A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7845B3892014E78300E7C43A /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		7845B38B201503B600E7C43A /* MainViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerCell.swift; sourceTree = "<group>"; };
+		786B1D59201A432100D456BF /* BandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandViewController.swift; sourceTree = "<group>"; };
+		786B1D5B201A434500D456BF /* BandViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandViewCell.swift; sourceTree = "<group>"; };
+		786B1D5D201A435C00D456BF /* BandViewControllerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandViewControllerService.swift; sourceTree = "<group>"; };
+		787C5116208CC354004C832F /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		787C5118208CC9CA004C832F /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		78CC657A202B945900455B1E /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78EC6596200BAD820053BFB9 /* Discogs Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Discogs Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78EC6599200BAD820053BFB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78EC659B200BAD820053BFB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +44,7 @@
 		78EC65A0200BAD820053BFB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78EC65A3200BAD820053BFB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78EC65A5200BAD820053BFB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86E1165B1618AF306C606ADA /* Pods-Discogs Client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discogs Client.release.xcconfig"; path = "Pods/Target Support Files/Pods-Discogs Client/Pods-Discogs Client.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +52,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D92CDDBA3C8E0A2B00231B23 /* Pods_Discogs_Client.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CD6D19B7037E8C345D2417B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66FAA5910A2E7A5815572C8D /* Pods-Discogs Client.debug.xcconfig */,
+				86E1165B1618AF306C606ADA /* Pods-Discogs Client.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		78EC658D200BAD820053BFB9 = {
 			isa = PBXGroup;
 			children = (
 				78EC6598200BAD820053BFB9 /* Discogs Client */,
 				78EC6597200BAD820053BFB9 /* Products */,
+				5CD6D19B7037E8C345D2417B /* Pods */,
+				DBC6A5896289A7C2210068E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +90,31 @@
 			isa = PBXGroup;
 			children = (
 				78EC6599200BAD820053BFB9 /* AppDelegate.swift */,
+				787C5116208CC354004C832F /* AlbumViewController.swift */,
+				787C5118208CC9CA004C832F /* AlbumTableViewCell.swift */,
+				786B1D59201A432100D456BF /* BandViewController.swift */,
+				786B1D5B201A434500D456BF /* BandViewCell.swift */,
+				786B1D5D201A435C00D456BF /* BandViewControllerService.swift */,
+				7845B3862014E0FF00E7C43A /* MainViewController.swift */,
+				7845B38B201503B600E7C43A /* MainViewControllerCell.swift */,
+				7845B3892014E78300E7C43A /* SearchService.swift */,
 				78EC659B200BAD820053BFB9 /* ViewController.swift */,
+				7845B3822014CBA400E7C43A /* AuthorizeService.swift */,
 				78EC659D200BAD820053BFB9 /* Main.storyboard */,
 				78EC65A0200BAD820053BFB9 /* Assets.xcassets */,
 				78EC65A2200BAD820053BFB9 /* LaunchScreen.storyboard */,
 				78EC65A5200BAD820053BFB9 /* Info.plist */,
 			);
 			path = "Discogs Client";
+			sourceTree = "<group>";
+		};
+		DBC6A5896289A7C2210068E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78CC657A202B945900455B1E /* FSPagerView.framework */,
+				21819FBFC9B3D44086FBAEC0 /* Pods_Discogs_Client.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78EC65A8200BAD820053BFB9 /* Build configuration list for PBXNativeTarget "Discogs Client" */;
 			buildPhases = (
+				0DBD1AF1478266A6FF1466DA /* [CP] Check Pods Manifest.lock */,
 				78EC6592200BAD820053BFB9 /* Sources */,
 				78EC6593200BAD820053BFB9 /* Frameworks */,
 				78EC6594200BAD820053BFB9 /* Resources */,
+				47DCD000A09AD47EDFB1C8EB /* [CP] Embed Pods Frameworks */,
+				DA5F4FC61D6B6EC7262EC037 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,7 +147,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Leonid Petrov";
 				TargetAttributes = {
 					78EC6595200BAD820053BFB9 = {
@@ -123,21 +179,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78CC6578202B902300455B1E /* Main.storyboard in Resources */,
 				78EC65A4200BAD820053BFB9 /* LaunchScreen.storyboard in Resources */,
 				78EC65A1200BAD820053BFB9 /* Assets.xcassets in Resources */,
-				78EC659F200BAD820053BFB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DBD1AF1478266A6FF1466DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Discogs Client-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47DCD000A09AD47EDFB1C8EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Discogs Client/Pods-Discogs Client-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Discogs Client/Pods-Discogs Client-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA5F4FC61D6B6EC7262EC037 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Discogs Client/Pods-Discogs Client-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		78EC6592200BAD820053BFB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				786B1D5E201A435C00D456BF /* BandViewControllerService.swift in Sources */,
+				7845B3832014CBA400E7C43A /* AuthorizeService.swift in Sources */,
+				7845B38C201503B600E7C43A /* MainViewControllerCell.swift in Sources */,
+				787C5119208CC9CA004C832F /* AlbumTableViewCell.swift in Sources */,
 				78EC659C200BAD820053BFB9 /* ViewController.swift in Sources */,
+				7845B38A2014E78300E7C43A /* SearchService.swift in Sources */,
 				78EC659A200BAD820053BFB9 /* AppDelegate.swift in Sources */,
+				787C5117208CC354004C832F /* AlbumViewController.swift in Sources */,
+				786B1D5C201A434500D456BF /* BandViewCell.swift in Sources */,
+				7845B3872014E10000E7C43A /* MainViewController.swift in Sources */,
+				786B1D5A201A432100D456BF /* BandViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +304,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +312,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +363,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +371,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -272,6 +403,7 @@
 		};
 		78EC65A9200BAD820053BFB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66FAA5910A2E7A5815572C8D /* Pods-Discogs Client.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +419,7 @@
 		};
 		78EC65AA200BAD820053BFB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E1165B1618AF306C606ADA /* Pods-Discogs Client.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
